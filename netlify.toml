@@ -1,0 +1,7 @@
+[build]
+command = "bun run build"
+publish = ".output/public"
+
+[build.environment]
+NETLIFY_USE_BUN = "true"
+NITRO_PRESET = "netlify"
